@@ -19,3 +19,4 @@
  - [Threading in C#](https://www.albahari.com/threading/)
  - [Understanding the Stack and Heap in C#](https://endjin.com/blog/2022/07/understanding-the-stack-and-heap-in-csharp-dotnet)
  - [Dynamic Proxy Tutorial](https://kozmic.net/dynamic-proxy-tutorial/)
+ - [An Introduction to React Fiber - The Algorithm Behind React](https://www.velotio.com/engineering-blog/react-fiber-algorithm)
