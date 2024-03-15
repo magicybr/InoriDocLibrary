@@ -24,7 +24,7 @@
  - [The power of Chrome Devtools Protocol](https://medium.com/globant/the-power-of-chrome-devtools-protocol-cbb2c47f1c29)
  - [The power of Chrome Devtools Protocol — Part II](https://medium.com/globant/the-power-of-chrome-devtools-protocol-part-ii-3fb8239785db)
  - [The power of Chrome Devtools Protocol — Part III](https://medium.com/globant/the-power-of-chrome-devtools-protocol-f4b1bcd4fb34)
-
+ - [Design Patterns for Unity Developers: Service Locator](https://medium.com/@taha.m.gokdemir/design-patterns-for-unity-developers-service-locator-124cd4628c43)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
 
