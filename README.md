@@ -25,6 +25,8 @@
  - [The power of Chrome Devtools Protocol — Part II](https://medium.com/globant/the-power-of-chrome-devtools-protocol-part-ii-3fb8239785db)
  - [The power of Chrome Devtools Protocol — Part III](https://medium.com/globant/the-power-of-chrome-devtools-protocol-f4b1bcd4fb34)
  - [Design Patterns for Unity Developers: Service Locator](https://medium.com/@taha.m.gokdemir/design-patterns-for-unity-developers-service-locator-124cd4628c43)
+ - [Angular Elements: how does this magic work under the hood?](https://medium.com/angular-in-depth/angular-elements-how-does-this-magic-work-under-the-hood-3684a0b2be95)
+ - [Learn how Angular Elements transmits Component’s @Outputs outside Angular](https://medium.com/angular-in-depth/how-angular-elements-uses-custom-events-mechanism-to-transmit-components-outputs-outside-angular-7b469386f6e2)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
 
