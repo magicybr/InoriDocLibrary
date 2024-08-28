@@ -27,6 +27,8 @@
  - [Design Patterns for Unity Developers: Service Locator](https://medium.com/@taha.m.gokdemir/design-patterns-for-unity-developers-service-locator-124cd4628c43)
  - [Angular Elements: how does this magic work under the hood?](https://medium.com/angular-in-depth/angular-elements-how-does-this-magic-work-under-the-hood-3684a0b2be95)
  - [Learn how Angular Elements transmits Component’s @Outputs outside Angular](https://medium.com/angular-in-depth/how-angular-elements-uses-custom-events-mechanism-to-transmit-components-outputs-outside-angular-7b469386f6e2)
+ - [What on earth is an Expression Tree?](https://sooki.medium.com/what-on-earth-is-an-expression-tree-c4ffe0ca25ac)
+ - [Everything you need to know about tree data structures](https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
 
