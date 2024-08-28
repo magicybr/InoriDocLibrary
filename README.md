@@ -29,6 +29,7 @@
  - [Learn how Angular Elements transmits Component’s @Outputs outside Angular](https://medium.com/angular-in-depth/how-angular-elements-uses-custom-events-mechanism-to-transmit-components-outputs-outside-angular-7b469386f6e2)
  - [What on earth is an Expression Tree?](https://sooki.medium.com/what-on-earth-is-an-expression-tree-c4ffe0ca25ac)
  - [Everything you need to know about tree data structures](https://www.freecodecamp.org/news/all-you-need-to-know-about-tree-data-structures-bceacb85490c)
+ - [Recursion is not hard: a step-by-step walkthrough of this useful programming technique](https://www.freecodecamp.org/news/recursion-is-not-hard-858a48830d83/)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
 
