@@ -32,6 +32,7 @@
  - [Recursion is not hard: a step-by-step walkthrough of this useful programming technique](https://www.freecodecamp.org/news/recursion-is-not-hard-858a48830d83/)
  - [choosing-between-class-and-struct](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/choosing-between-class-and-struct)
  - [Struct vs Class in C#: Choosing the Right Data Type](https://www.bytehide.com/blog/struct-vs-class-csharp)
+ - [How to Represent a Graph in C#](https://dev.to/russianguycoding/how-to-represent-a-graph-in-c-4cmo)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
 
