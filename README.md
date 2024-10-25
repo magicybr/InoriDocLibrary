@@ -33,6 +33,7 @@
  - [choosing-between-class-and-struct](https://learn.microsoft.com/en-us/dotnet/standard/design-guidelines/choosing-between-class-and-struct)
  - [Struct vs Class in C#: Choosing the Right Data Type](https://www.bytehide.com/blog/struct-vs-class-csharp)
  - [How to Represent a Graph in C#](https://dev.to/russianguycoding/how-to-represent-a-graph-in-c-4cmo)
+ - [ASP.NET CORE DEPENDENCY INJECTION: What is the IServiceCollection?](https://www.stevejgordon.co.uk/aspnet-core-dependency-injection-what-is-the-iservicecollection)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
 
