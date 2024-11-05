@@ -34,6 +34,7 @@
  - [Struct vs Class in C#: Choosing the Right Data Type](https://www.bytehide.com/blog/struct-vs-class-csharp)
  - [How to Represent a Graph in C#](https://dev.to/russianguycoding/how-to-represent-a-graph-in-c-4cmo)
  - [ASP.NET CORE DEPENDENCY INJECTION: What is the IServiceCollection?](https://www.stevejgordon.co.uk/aspnet-core-dependency-injection-what-is-the-iservicecollection)
+ - [Tracing .NET Core applications](https://developers.redhat.com/blog/2019/12/23/tracing-net-core-applications#)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
 
