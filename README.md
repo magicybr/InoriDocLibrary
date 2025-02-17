@@ -41,3 +41,4 @@
 ## Projects
  - [Clean Architecture with .NET Core & React+Redux](https://github.com/ivanpaulovich/clean-architecture-manga?tab=readme-ov-file)
  - [Top ASP.NET Core-Based Open-Source App Projects](https://www.syncfusion.com/blogs/post/top-asp-dotnet-core-open-source-apps.aspx)
+ - [How to Implement Web Components in Angular Projects](https://blog.pixelfreestudio.com/how-to-implement-web-components-in-angular-projects/)
