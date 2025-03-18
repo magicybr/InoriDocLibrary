@@ -35,10 +35,11 @@
  - [How to Represent a Graph in C#](https://dev.to/russianguycoding/how-to-represent-a-graph-in-c-4cmo)
  - [ASP.NET CORE DEPENDENCY INJECTION: What is the IServiceCollection?](https://www.stevejgordon.co.uk/aspnet-core-dependency-injection-what-is-the-iservicecollection)
  - [Tracing .NET Core applications](https://developers.redhat.com/blog/2019/12/23/tracing-net-core-applications#)
+ - [How to Implement Web Components in Angular Projects](https://blog.pixelfreestudio.com/how-to-implement-web-components-in-angular-projects/)
+ - [The Microfrontend Revolution: Module Federation with Angular](https://www.angulararchitects.io/blog/the-microfrontend-revolution-part-2-module-federation-with-angular/)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
 
 ## Projects
  - [Clean Architecture with .NET Core & React+Redux](https://github.com/ivanpaulovich/clean-architecture-manga?tab=readme-ov-file)
  - [Top ASP.NET Core-Based Open-Source App Projects](https://www.syncfusion.com/blogs/post/top-asp-dotnet-core-open-source-apps.aspx)
- - [How to Implement Web Components in Angular Projects](https://blog.pixelfreestudio.com/how-to-implement-web-components-in-angular-projects/)
