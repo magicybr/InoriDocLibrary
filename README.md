@@ -37,6 +37,7 @@
  - [Tracing .NET Core applications](https://developers.redhat.com/blog/2019/12/23/tracing-net-core-applications#)
  - [How to Implement Web Components in Angular Projects](https://blog.pixelfreestudio.com/how-to-implement-web-components-in-angular-projects/)
  - [The Microfrontend Revolution: Module Federation with Angular](https://www.angulararchitects.io/blog/the-microfrontend-revolution-part-2-module-federation-with-angular/)
+ - [Building and consuming Angular Elements as Web Components](https://angular.love/building-and-consuming-angular-elements-as-web-components)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
 
