@@ -45,3 +45,5 @@
 ## Projects
  - [Clean Architecture with .NET Core & React+Redux](https://github.com/ivanpaulovich/clean-architecture-manga?tab=readme-ov-file)
  - [Top ASP.NET Core-Based Open-Source App Projects](https://www.syncfusion.com/blogs/post/top-asp-dotnet-core-open-source-apps.aspx)
+## Repo
+ - [angular-umd-bundle](https://github.com/peterblazejewicz/angular-umd-bundle)
