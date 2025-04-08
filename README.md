@@ -39,6 +39,7 @@
  - [The Microfrontend Revolution: Module Federation with Angular](https://www.angulararchitects.io/blog/the-microfrontend-revolution-part-2-module-federation-with-angular/)
  - [Building and consuming Angular Elements as Web Components](https://angular.love/building-and-consuming-angular-elements-as-web-components)
  - [Your options for building Angular Elements](https://www.angulararchitects.io/en/blog/your-options-for-building-angular-elements/)
+ - [Migrating from Angular Flex Layout to Tailwind CSS](https://blogs.halodoc.io/flex-layout-to-tailwind-migration/)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
 
