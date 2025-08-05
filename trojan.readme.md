@@ -1,5 +1,9 @@
 yay -S trojan-go
 
+curl -s "https://..." \
+  | base64 -d \
+  | grep ^trojan:// > nodes.txt
+
 将脚本保存为 batch-trojan-go.sh，并赋予可执行权限：
 chmod +x batch-trojan-go.sh
 
