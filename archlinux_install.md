@@ -249,6 +249,9 @@ Server = https://repo.huaweicloud.com/archlinuxcn/$arch
 
 # install browser 
 paru -S google-chrome
+google-chrome-stable
+clash-verge
+
 ```
 
 - 终端代理设置
@@ -256,8 +259,11 @@ paru -S google-chrome
 # 在 ~/.bashrc 中加入以下内容（注意不要再有全局的 export http_proxy=… 之类语句
 # 打开代理
 proxy_on() {
-  export http_proxy="http://127.0.0.1:7890"
-  export https_proxy="http://127.0.0.1:7890"
+  # export http_proxy="http://127.0.0.1:7890"
+  # export https_proxy="http://127.0.0.1:7890"
+  # export all_proxy="socks5://127.0.0.1:7890"
+  export http_proxy="socks5h://127.0.0.1:1080"
+  export https_proxy="socks5h://127.0.0.1:1080"
   export no_proxy="localhost,127.0.0.1,::1"
   echo "代理已开启"
 }
