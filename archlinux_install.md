@@ -237,9 +237,32 @@ reboot 重启
 sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
 ```
 
-- Exanple
+- 终端代理设置
 ```
-ip a
+# 在 ~/.bashrc 中加入以下内容（注意不要再有全局的 export http_proxy=… 之类语句
+# 打开代理
+proxy_on() {
+  export http_proxy="http://127.0.0.1:7890"
+  export https_proxy="http://127.0.0.1:7890"
+  export no_proxy="localhost,127.0.0.1,::1"
+  echo "代理已开启"
+}
+
+# 关闭代理
+proxy_off() {
+  unset http_proxy https_proxy no_proxy
+  echo "代理已关闭"
+}
+
+source ~/.bashrc   # 重载配置
+echo $http_proxy   # 不会有输出，说明当前不走代理
+
+
+proxy_on
+echo $http_proxy   # 会输出 http://127.0.0.1:7890
+
+proxy_off
+echo $http_proxy   # 再次无输出
 ```
 
 - Exanple
