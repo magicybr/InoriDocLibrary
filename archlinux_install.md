@@ -237,6 +237,20 @@ reboot 重启
 sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
 ```
 
+- 编辑pacman配置文件
+```
+sudo vim /etc/pacman.conf
+
+[archlinuxcn]
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch 
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch 
+Server = https://mirrors.hit.edu.cn/archlinuxcn/$arch 
+Server = https://repo.huaweicloud.com/archlinuxcn/$arch
+
+# install browser 
+paru -S google-chrome
+```
+
 - 终端代理设置
 ```
 # 在 ~/.bashrc 中加入以下内容（注意不要再有全局的 export http_proxy=… 之类语句
