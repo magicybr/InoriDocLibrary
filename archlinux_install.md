@@ -67,7 +67,7 @@ btrfs-progs是btrfs文件系统的管理工具
 
 - 安装必要的功能性软件
 ```
-pacstrap /mnt networkmanager vim sudo amd-ucode git openssl dhcpcd 
+pacstrap /mnt networkmanager vim sudo amd-ucode git openssl 
 
 networkmanager 是联网用的，和kde和gnome深度集成，也可以换成别的
 vim 是文本编辑器，也可以换成别的，比如nano
