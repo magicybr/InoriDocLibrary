@@ -234,6 +234,7 @@ reboot 重启
 
 - 更换flatpak上海交大源
 ```
+flatpak remote-modify flathub --url=https://mirrors.ustc.edu.cn/flathub
 sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
 ```
 
