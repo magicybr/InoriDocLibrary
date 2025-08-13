@@ -190,6 +190,16 @@
     ```.sh
     # 安装常用字体
     sudo pacman -S wqy-zenhei noto-fonts noto-fonts-emoji
+    sudo pacman -S \
+          fcitx5-im \
+          fcitx5-configtool \
+          fcitx5-gtk \
+          fcitx5-qt \
+          fcitx5-chinese-addons \
+          noto-fonts-cjk \
+          fcitx5-pinyin-zhwiki \
+          fcitx5-rime
+
 
     # 安装音频固件与服务
     sudo pacman -S sof-firmware alsa-firmware alsa-ucm-conf \
@@ -197,7 +207,22 @@
 
     systemctl --user enable --now pipewire pipewire-pulse wireplumber
 
-    sudo pacman -S pavucontrol 
+    sudo pacman -S pavucontrol
+
+
+    sudo mkdir -p /etc/pipewire
+
+    sudo cp /usr/share/pipewire/pipewire-pulse.conf /etc/pipewire/pipewire-pulse.conf
+    systemctl --user restart pipewire pipewire-pulse wireplumber
+    # 在 context.modules 的 libpipewire-module-protocol-pulse 或 libpipewire-module-pulse-volume （若该模块存在）添加：
+    {
+        name = libpipewire-module-protocol-pulse
+        args = {
+        +    enable-volume-boost = true
+        +    volume-max = 150
+        }
+    }
+
     ```
 
 11. Hyprland 桌面环境
