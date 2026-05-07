@@ -42,7 +42,10 @@
  - [Migrating from Angular Flex Layout to Tailwind CSS](https://blogs.halodoc.io/flex-layout-to-tailwind-migration/)
 ## Blogs
  - [黑洞视界](https://www.cnblogs.com/eventhorizon)
-
+## Python
+ - SciPy Official Documentation
+ - Desmos
+ - Silvanus P Thompson [Calculus Made Easy](https://www.calculusmadeeasy.org/)
 ## Projects
  - [Clean Architecture with .NET Core & React+Redux](https://github.com/ivanpaulovich/clean-architecture-manga?tab=readme-ov-file)
  - [Top ASP.NET Core-Based Open-Source App Projects](https://www.syncfusion.com/blogs/post/top-asp-dotnet-core-open-source-apps.aspx)
