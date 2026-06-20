@@ -18,14 +18,14 @@
 2. 硬盘分区:
 
     ```sh
-    lsblk -pf           # 查看当前分区情况
-    fdisk -l            # /dev/想要查询详细情况的硬盘  小写字母l，查看详细分区信息
-    cfdisk /dev/nvme0n1 # 选择自己要使用的硬盘进行分区
+    lsblk -pf                                                                                  # 查看当前分区情况
+    fdisk -l                                                                                   # /dev/想要查询详细情况的硬盘  小写字母l，查看详细分区信息
+    cfdisk /dev/nvme0n1p1                                                                      # 选择自己要使用的硬盘进行分区
 
-    mkfs.fat -F32 /dev/EFI分区  # 格式化fat 
-    mkfs.btrfs -f /dev/根分区   # 格式化btrfs 
+    mkfs.fat -F 32 /dev/nvme0n1p1                                                              # 格式化fat 
+    mkfs.btrfs -f /dev/nvme0n1p2                                                               # 格式化btrfs 
 
-    mount -t btrfs -o compress=zstd /dev/root_partition /mnt
+    mount -t btrfs -o compress=zstd /dev/nvme0n1p2 /mnt
 
     btrfs subvolume create /mnt/@
     btrfs subvolume create /mnt/@home
@@ -35,11 +35,12 @@
 
     umount /mnt
 
-    mount -t btrfs -o subvol=/@,compress=zstd /dev/root_partition /mnt #根目录
-    mount --mkdir -t btrfs -o subvol=/@home,compress=zstd /dev/root_partition /mnt/home #/home目录
-    mount --mkdir -t btrfs -o subvol=/@swap,compress=zstd /dev/root_partition /mnt/swap #/swap目录
-    mount --mkdir /dev/efi_partition /mnt/boot #/boot目录
-    mount --mkdir /dev/winefi_partition /mnt/winboot #windows的启动分区，为双系统引导做准备
+    mount -t btrfs -o subvol=/@,compress=zstd /dev/nvme0n1p2 /mnt                             #根目录
+    mount --mkdir -t btrfs -o subvol=/@home,compress=zstd /dev/nvme0n1p2 /mnt/home            #/home目录
+    mount --mkdir -t btrfs -o subvol=/@swap,compress=zstd /dev/nvme0n1p2 /mnt/swap            #/swap目录
+    mount --mkdir /dev/nvme0n1p1 /mnt/boot                                                    #/boot目录
+    
+    mount --mkdir /dev/winefi_partition /mnt/winboot                                          #windows的启动分区，为双系统引导做准备
     ```
 
 3. 安装基础系统
